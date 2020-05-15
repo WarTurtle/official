@@ -1,13 +1,8 @@
 ---
 title: Contact
-layout: page
+layout: contact
 ---
 
-{%- if site.hyvor_talk_website_id -%}
-  <div class="comments">
-    {%- include hyvor-talk-comments.html -%}
-  </div>
-{%- endif -%}
 
 
 You can always contact the creator of this theme via [Twitter](https://twitter.com/_SupunKavinda).
