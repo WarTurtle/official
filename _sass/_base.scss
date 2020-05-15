@@ -37,6 +37,9 @@ body {
 			font-feature-settings: "kern" 1;
 	font-kerning: normal;
 
+	  @media mobile {
+	      background: #000;
+	  }
 }
 
 // block elements - bottom margin
