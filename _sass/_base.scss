@@ -37,9 +37,11 @@ body {
 			font-feature-settings: "kern" 1;
 	font-kerning: normal;
 
-	  @media mobile {
-	      background: #000;
-	  }
+	  @include media-query($on-mobile) {
+        padding: 0;
+	background-image: url("https://cdn.pixabay.com/photo/2014/04/05/11/39/rain-316580_960_720.jpg");
+        box-shadow: none;
+    }
 }
 
 // block elements - bottom margin
